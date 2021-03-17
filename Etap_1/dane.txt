@@ -1,0 +1,38 @@
+Dominik Kaliszewski - kaliszewski.dominik@gmail.com
+Adrian Jakubczyk - 
+Grupa 1ID21A
+
+Temat: Porównanie Hibernate i MyBatis
+
+Technologie:
+- Java 8
+- Spring Boot
+- Hibernate
+- MyBatis
+- jUnit
+- MySQL
+
+Harmonogram:
+- Utworzenie schematu bazy danych 
+- Utworzenie generatora bądź zasilenie danymi utworzonej bazy
+- Utworzenie projektu w Springu ze wspólnymi encjami
+- Dodanie do projektu Hibernate-a i przygotowanie repozytoriów
+- Utworzenie drugiego projektu na podstawie podstawowego z dodaniem MyBatis wraz z Mapperami
+- Przygotowanie testów wydajnościowych porównujących podobne założenia (np. w obu przypadkach użycie natywnego zapytania SQL)
+- Utworzenie zestawienia z wynikami testów
+
+
+Podział prac:
+- Stworzenie struktury bazy danych oraz wygenerowanie do niej danych (Dominik Kaliszewski, Adrian Jakubczyk)
+- Utworzenie projektu używającego jako ORM-a Hibernate-a (Adrian Jakubczyk)
+- Testy wydajnościowe na aplikacji z użyciem Hibernate-a (Adrian Jakubczyk)
+- Utworzenie projektu używającego jako ORM-a MyBatis (Dominik Kaliszewski)
+- Testy wydajnościowe na aplikacji z użyciem MyBatis (Dominik Kaliszewski)
+- Przygotowanie sprawozdania porównującego wyniki z obu projektów (Dominik Kaliszewski, Adrian Jakubczyk)
+
+Temat z projektu "Programowanie systemów rozproszonych: 
+- Fraktale generowanie klatka po klatce na wielu systemach komputerowych (Dominik Kaliszewski,Adrian Jakubczyk)
+
+Tematy prac inżynierskich:
+- Projekt i implementacja inteligentnej kamery (Dominik Kaliszewski)
+- Rendering nie-fotorealistyczny z użyciem shaderów na przykładzie gry 3D. (Adrian Jakubczyk)

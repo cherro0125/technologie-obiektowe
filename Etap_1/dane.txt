@@ -1,5 +1,5 @@
 Dominik Kaliszewski - kaliszewski.dominik@gmail.com
-Adrian Jakubczyk - 
+Adrian Jakubczyk - adrian.jakubczyk1@gmail.com
 Grupa 1ID21A
 
 Temat: Porównanie Hibernate i MyBatis

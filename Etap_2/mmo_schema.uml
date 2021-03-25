@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.accounts</OriginalElement>
+  <nodes>
+    <node x="227.5" y="120.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.map</node>
+    <node x="205.0" y="458.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.map_position</node>
+    <node x="704.0" y="470.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.servers</node>
+    <node x="454.0" y="458.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.accounts</node>
+    <node x="1540.0" y="482.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.items</node>
+    <node x="1122.0" y="494.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_classes</node>
+    <node x="1239.75" y="830.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_class_skills</node>
+    <node x="704.0" y="108.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.countries</node>
+    <node x="1237.95" y="0.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.base_statistics</node>
+    <node x="1336.0" y="470.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.skills</node>
+    <node x="908.0" y="494.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_races</node>
+    <node x="1014.7583333333333" y="1108.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_items</node>
+    <node x="583.5" y="782.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters</node>
+    <node x="0.0" y="446.0">85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_looks</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.accounts">
+      <point x="-16.5" y="-138.0" />
+      <point x="666.0" y="742.0" />
+      <point x="569.0" y="742.0" />
+      <point x="0.0" y="126.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.servers" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.countries">
+      <point x="0.0" y="-114.0" />
+      <point x="0.0" y="90.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.servers">
+      <point x="16.5" y="-138.0" />
+      <point x="699.0" y="742.0" />
+      <point x="796.0" y="742.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_classes">
+      <point x="82.5" y="-138.0" />
+      <point x="765.0" y="762.0" />
+      <point x="1170.5" y="762.0" />
+      <point x="-48.5" y="90.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_races" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.base_statistics">
+      <point x="0.0" y="-90.0" />
+      <point x="1005.0" y="416.0" />
+      <point x="1263.575" y="416.0" />
+      <point x="-76.875" y="198.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.map_position">
+      <point x="-49.5" y="-138.0" />
+      <point x="633.0" y="752.0" />
+      <point x="319.5" y="752.0" />
+      <point x="0.0" y="126.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_items" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.items">
+      <point x="46.0" y="-90.0" />
+      <point x="1152.7583333333332" y="1083.0" />
+      <point x="1638.0" y="1083.0" />
+      <point x="0.0" y="102.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.items" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.base_statistics">
+      <point x="0.0" y="-102.0" />
+      <point x="1638.0" y="416.0" />
+      <point x="1417.325" y="416.0" />
+      <point x="76.875" y="198.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_looks">
+      <point x="-82.5" y="-138.0" />
+      <point x="600.0" y="762.0" />
+      <point x="92.5" y="762.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_items" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters">
+      <point x="-46.0" y="-90.0" />
+      <point x="1060.7583333333332" y="1083.0" />
+      <point x="682.5" y="1083.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_class_skills" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.skills">
+      <point x="54.0" y="-90.0" />
+      <point x="1401.75" y="762.0" />
+      <point x="1428.0" y="762.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.map_position" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.map">
+      <point x="0.0" y="-126.0" />
+      <point x="0.0" y="78.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.characters" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_races">
+      <point x="49.5" y="-138.0" />
+      <point x="732.0" y="752.0" />
+      <point x="1005.0" y="752.0" />
+      <point x="0.0" y="90.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.skills" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.base_statistics">
+      <point x="0.0" y="-114.0" />
+      <point x="1428.0" y="426.0" />
+      <point x="1366.075" y="426.0" />
+      <point x="25.625" y="198.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_classes" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.base_statistics">
+      <point x="0.0" y="-90.0" />
+      <point x="1219.0" y="426.0" />
+      <point x="1314.825" y="426.0" />
+      <point x="-25.625" y="198.0" />
+    </edge>
+    <edge source="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_class_skills" target="85b5d30c-66c7-4233-b09e-9bf29fafecf4.TABLE:mmo.character_classes">
+      <point x="-54.0" y="-90.0" />
+      <point x="1293.75" y="762.0" />
+      <point x="1267.5" y="762.0" />
+      <point x="48.5" y="90.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="1393.333333333333" y="429.66666666666663" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

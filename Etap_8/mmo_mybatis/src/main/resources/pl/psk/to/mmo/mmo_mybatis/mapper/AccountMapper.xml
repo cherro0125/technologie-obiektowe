@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pl.psk.to.mmo.mmo_mybatis.mapper.AccountMapper">
+    <sql id="allFields">
+        SELECT
+            id,
+            email,
+            nickname,
+            login,
+            password_hash as passwordHash,
+            ban_expired_at as banExpiredAt,
+            created_at as createdAt,
+            modified_at as modifiedAt,
+            deleted_at as deletedAt
+    </sql>
+    <select id="getAllAccounts" parameterType="pl.psk.to.mmo.mmo_mybatis.model.base.Criteria" resultType="pl.psk.to.mmo.mmo_mybatis.model.Account">
+        <include refid="allFields"/>
+        FROM accounts
+        <if test="criteria.sortColumn != null">
+            ORDER BY ${criteria.sortColumn} ${criteria.sortType}
+        </if>
+        <if test="criteria.limit != null">
+            LIMIT ${criteria.offset},${criteria.limit}
+        </if>
+    </select>
+    <select id="getAccountById" parameterType="java.lang.Long" resultType="pl.psk.to.mmo.mmo_mybatis.model.Account">
+        <include refid="allFields"/>
+        FROM accountd
+        WHERE id = ${id}
+    </select>
+    <insert
+            id="insertAccount"
+            parameterType="pl.psk.to.mmo.mmo_mybatis.model.Account"
+            flushCache="true"
+            timeout="20">
+        INSERT INTO Accounts(email,nickname,login,password_hash,ban_expired_at)
+        VALUES (#{account.email},#{account.nickname},#{account.login},#{account.passwordHash},#{account.ban_expired_at})
+
+    </insert>
+    <update id="updateAccount" parameterType="pl.psk.to.mmo.mmo_mybatis.model.Account">
+        UPDATE Accounts
+        SET email = #{account.email},
+        nickname = #{account.nickname},
+        login=#{account.login},
+        password_hash = #{account.passwordHash},
+        ban_expired_at=#{account.banExpiredAt}
+
+        <if test="account.id != null">
+            WHERE    id = ${account.id}
+        </if>
+
+
+    </update>
+    <delete id="deleteAccount" parameterType="java.lang.Long">
+        DELETE FROM Accounts WHERE id = ${id}
+    </delete>
+</mapper>

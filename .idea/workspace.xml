@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ac58dab-a5c3-480f-bf1c-6fd60af7474d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/AccountMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/MmoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/controller/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/BaseStatistic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/MapModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/base/Auditable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/base/CharacterInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/BodyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterClassSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterLook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterRace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/HairColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/HairType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/HeadType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/Sex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/character/SkinColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/java/pl/psk/to/mmo/model/item/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/resources/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/resources/AccountMapper_alt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_8/mmo/src/test/java/pl/psk/to/mmo/MmoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/MmoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/controller/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/AccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/BaseStatistic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/MapModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/base/Auditable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/base/CharacterInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/BodyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterClassSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterLook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/CharacterRace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/HairColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/HairType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/HeadType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/Sex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/character/SkinColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/model/item/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/java/pl/psk/to/mmo/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Etap_9/mmo/src/test/java/pl/psk/to/mmo/MmoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1t8EvLiDWqZY1Va0P7OzYEhpgQL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ac58dab-a5c3-480f-bf1c-6fd60af7474d" name="Default Changelist" comment="" />
+      <created>1622142545984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622142545984</updated>
+      <workItem from="1622142547304" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
